@@ -18,6 +18,7 @@ public class ReceiptController {
 
     @GetMapping
     public String SwaggerTester() {
+        receiptService.receiptViewer("number");
         return "Swagger works";
     }
 }

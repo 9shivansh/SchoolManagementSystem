@@ -18,7 +18,7 @@ public class Receipt {
     private Date dob;
 
 
-    public Receipt(int rNumber, int admissionNumber, int tuitionFee, int transportFee, String sName, String fName, Date dob) {
+    public Receipt(int rNumber, int admissionNumber, int totalAmount, int tuitionFee, int transportFee, String sName, String fName, Date dob) {
         this.rNumber = rNumber;
         this.admissionNumber = admissionNumber;
         this.tuitionFee = tuitionFee;

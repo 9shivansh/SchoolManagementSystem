@@ -12,4 +12,8 @@ public class ReceiptService {
     public ReceiptService(ReceiptRepository receiptRepository) {
         this.receiptRepository = receiptRepository;
     }
+
+    public Long receiptViewer(String number) {
+        return receiptRepository.count();
+    }
 }
